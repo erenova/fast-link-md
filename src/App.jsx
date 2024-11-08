@@ -25,7 +25,7 @@ const App = () => {
           Url:
           <input
             id={`urlInp`}
-            type="text"
+            type="url"
             className="w-40 border border-blue-500 rounded-md"
             onChange={(e) => {
               setUrl(e.target.value);
